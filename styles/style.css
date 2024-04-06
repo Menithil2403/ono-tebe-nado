@@ -20,6 +20,10 @@ body {
    
 }
 
+.heder__links-list{
+  margin: 0;
+}
+
 .header__links-list-item {
   list-style: circle;
   float: left;
@@ -55,6 +59,9 @@ body {
 
 /*___________________menu___________________*/
 
+.main{
+  margin: 0;
+}
 
 /*__________________cover___________________*/
 .cover {
