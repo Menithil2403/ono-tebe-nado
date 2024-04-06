@@ -144,7 +144,7 @@ body {
 }
 
 
-/*___________________lots___________________*/
+/*___________________(lots)___________________*/
 .lots {
   display: flex;
   flex-direction: column;
@@ -182,7 +182,7 @@ body {
 
 
 .overlay__lots {
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 0;
