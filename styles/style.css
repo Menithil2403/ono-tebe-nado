@@ -23,7 +23,7 @@ body {
   align-items: center;
 }
 
-.heder__menu-list{
+.heder__menu-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -39,7 +39,7 @@ body {
   text-underline-offset: 4px;
 }
 
-.heder__menu-link-item-activ{
+.heder__menu-link-item-activ {
   list-style-type: none;
 }
 
@@ -97,7 +97,7 @@ body {
   background-color: rgba(0,0,0,0.6);
 }
 
-.cover__title{
+.cover__title {
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,7 @@ body {
   padding: 165px 0px 122px 0px;
 }
 
-.cover__title-left{
+.cover__title-left {
   letter-spacing: 30px;
   display: flex;
   justify-content: start;
@@ -117,29 +117,29 @@ body {
   margin-left: 30px;
 }
 
-.cover__title-center{
+.cover__title-center {
   letter-spacing: 30px;
   display: flex;
   justify-content: center;
   padding: 10px 60px 0px 30px;
 }
 
-.cover__title-center span{
+.cover__title-center span {
   margin-left: 30px;
 }
 
-.cover__title-right{
+.cover__title-right {
   letter-spacing: 30px;
   display: flex;
   justify-content: end;
   padding: 3px 20px 0px 0px;
 }
 
-.cover__title-right span{
+.cover__title-right span {
   margin-right: 30px;
 }
 
-.cover__footer{
+.cover__footer {
   z-index: 0;
   display: inline-flex;
   margin: 0px 0px 50px 0px;
@@ -147,7 +147,6 @@ body {
 
 .cover__description-text {
   word-spacing: 18px;
-  margin: auto;
   font-size: 22px;
   margin: 16px 0px 0px 80px;
 }
@@ -202,7 +201,7 @@ body {
   position: relative;
 }
 
-.card_type{
+.card_type {
   color: white;
   display: flex;
   flex-direction: column;
@@ -219,7 +218,7 @@ body {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_type_book { 
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
@@ -334,7 +333,7 @@ body {
   margin: 0px 0px 0px 43px;
 }
 
-.footer__menu-link-item-activ{
+.footer__menu-link-item-activ {
   text-decoration: none;
 }
 
