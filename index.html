@@ -12,21 +12,21 @@
   <body>
     <header class="heder">
       <nav class="heder__menu">
-        <ol>
-          <li style="list-style-type: none" class="header__links-list-item">
-            <a class="header__link">главная</a>
+        <ul class="heder__menu-list" >
+          <li class="header__links-list-item heder__menu-link-item-activ">
+            <a class="header__link ">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="">посмотреть лоты</a>
+            <a class="header__link" href="#">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="">об аукционе</a>
+            <a class="header__link" href="#">об аукционе</a>
           </li>
-        </ol>
+        </ul>
       </nav>
       <a 
         class="heder__logo-link"
-        href="">
+        href="#">
         <div class="header__logo">
           <img
             class="header__logo-image"
@@ -35,48 +35,36 @@
           />
         </div>
       </a>
-      <article class="heder__address">
-        <address class="header__address">
-          <p>
-            <a class="header__address-link" href="tel:+99995555555"
-              >+9 999 555 5555</a
-            ><br />
-          </p>
-          <p>
-            <a class="header__address-link" href="mailto:info@sobaka.ge"
-              >info@sobaka.ge</a
-            ><br />
-          </p>
-          <p>
-            <a class="header__address-link"
-              >наб. Принсенграхт 263- 265, Амстердам</a
-            >
-          </p>
+        <address class="address header__address">
+          <a class="address-link" href="tel:+99995555555"
+            >+9 999 555 5555</a><br/>
+          <a class="address-link" href="mailto:info@sobaka.ge"
+            >info@sobaka.ge</a><br/>
+          <p class="address-text">наб. Принсенграхт 263- 265, Амстердам</p>
         </address>
-      </article>
     </header>
     <main>
       <section class="cover">
-        <div class="overlay__cover"></div>
-        <h1 class="aligned-text_right">он</h1>
-        <h1 class="aligned-text_right-O">о</h1>
-        <h1 class="aligned-text_center">теб</h1>
-        <h1 class="aligned-text_center-E">е</h1>
-        <h1 class="aligned-text_left">на</h1>
-        <h1 class="aligned-text_left-DO">до</h1>
-
-        <p class="cover__description-text">
-          Аукцион вещей, в которые никто не верил
-        </p>
-        <button class="bet-button">Сделать ставку</button>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <p class="cover__title-left">он<span>о</span></p> 
+          <p class="cover__title-center">теб <span>е</span></p> 
+          <p class="cover__title-right"><span>н</span>адо</p>
+        </h1>
+        <div class="cover__footer">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">ЛОты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="">
-              <div class="overlay__lots"></div>
-              <div class="card_type_film">
+              <div class="overlay"></div>
+              <div class="card_type card_type_film">
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -89,8 +77,8 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card-link" href="">
-              <div class="overlay__lots"></div>
-              <div class="card_type_book">
+              <div class="overlay"></div>
+              <div class="card_type card_type_book">
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -107,8 +95,8 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card-link" href="">
-              <div class="overlay__lots"></div>
-              <div class="card_type_picture">
+              <div class="overlay"></div>
+              <div class="card_type card_type_picture">
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -153,27 +141,17 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
-        <p>
-          <a class="header__address-link" href="tel:+99995555555"
-            >+9 999 555 5555</a
-          ><br />
-        </p>
-        <p>
-          <a class="header__address-link" href="mailto:info@sobaka.ge"
-            >info@sobaka.ge</a
-          ><br />
-        </p>
-        <p>
-          <a class="header__address-link"
-            >наб. Принсенграхт 263- 265, Амстердам</a
-          >
-        </p>
+      <address class="address footer_address">
+        <a class="address-link" href="tel:+99995555555"
+          >+9 999 555 5555</a><br/>
+        <a class="address-link" href="mailto:info@sobaka.ge"
+          >info@sobaka.ge</a><br/>
+        <p class="address-text">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
       <nav class="footer__menu">
-        <ol class="footer__menu-list">
-          <li class="footer__menu-link_active">
-            <a class="footer__menu-link" href="">главная</a>
+        <ul class="footer__menu-list">
+          <li class="footer__menu-link-item ">
+            <a class="footer__menu-link footer__menu-link-item-activ" href="">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="">посмотреть лоты</a>
@@ -181,7 +159,7 @@
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="">об аукционе</a>
           </li>
-        </ol>
+        </ul>
       </nav>
       <div class="footer__social-list-block">
         <ul class="footer__social-list">
