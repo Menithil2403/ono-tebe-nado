@@ -103,42 +103,51 @@ body {
   flex-direction: column;
   letter-spacing: 35px;
   font-size: 100px;
-  padding: 165px 20px 122px 50px;
+  padding: 165px 0px 122px 0px;
 }
 
 .cover__title-left {
   letter-spacing: 30px;
 
 }
+.title-left-spacing {
+  letter-spacing: 26px;
+  white-space: pre;
+}
 
-.cover__title-left span {
-  letter-spacing: 6px;
-
+.title-letter-O {
+  letter-spacing: 5px;
 }
 
 .cover__title-center {
-  display: flex;
   letter-spacing: 30px;
   padding-top: 10px;
-  align-items: center;
-  justify-content: center;
-  gap: 33px;
+  margin: auto;
 }
 
-.cover__title-center span {
-  display: flex;
-  letter-spacing: 88px;
+.title-center-spacing {
+  letter-spacing: 3px;
+  white-space: pre;
+}
+
+.title-letter-E {
+  letter-spacing: 60px;
 }
 
 .cover__title-right {
   margin-left: auto;
   margin-right: 0;
-  letter-spacing: 30px;
+  letter-spacing: 28px;
   padding-top: 3px;
 }
 
-.cover__title-right span {
-  letter-spacing: 58px;
+.title-letter-H {
+  letter-spacing: 60px;
+}
+
+.title-right-spacing {
+  letter-spacing: 0px;
+  white-space: pre;
 }
 
 .cover__footer {
