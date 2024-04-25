@@ -7,7 +7,7 @@ body {
 /*___________________heder___________________*/
 .heder {
   display: flex;
-  padding: 90px 24px 94px 24px;
+  padding: 92px 24px 94px 24px;
   font-size: 18px;
 }
 
@@ -103,7 +103,7 @@ body {
   flex-direction: column;
   letter-spacing: 30px;
   font-size: 100px;
-  padding: 165px 50px 123px 50px;
+  padding: 163px 50px 122px 50px;
   justify-content: center;
 }
 
