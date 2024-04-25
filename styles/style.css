@@ -101,53 +101,35 @@ body {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  letter-spacing: 35px;
+  letter-spacing: 30px;
   font-size: 100px;
-  padding: 165px 0px 122px 0px;
+  padding: 165px 50px 123px 50px;
+  justify-content: center;
 }
 
 .cover__title-left {
-  letter-spacing: 30px;
-
-}
-.title-left-spacing {
-  letter-spacing: 26px;
-  white-space: pre;
-}
-
-.title-letter-O {
-  letter-spacing: 5px;
+  display: inline-flex;
+  align-self: start;
 }
 
 .cover__title-center {
-  letter-spacing: 30px;
+  display: inline-flex;
+  align-self: center;
   padding-top: 10px;
-  margin: auto;
-}
-
-.title-center-spacing {
-  letter-spacing: 3px;
-  white-space: pre;
-}
-
-.title-letter-E {
-  letter-spacing: 60px;
 }
 
 .cover__title-right {
-  margin-left: auto;
-  margin-right: 0;
-  letter-spacing: 28px;
+  display: inline-flex;
+  align-self: end;
   padding-top: 3px;
 }
 
-.title-letter-H {
-  letter-spacing: 60px;
+.title-spacing {
+  letter-spacing: 0px;
 }
 
-.title-right-spacing {
-  letter-spacing: 0px;
-  white-space: pre;
+.title-letter {
+  letter-spacing: 60px;
 }
 
 .cover__footer {
